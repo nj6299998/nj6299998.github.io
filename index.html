@@ -2,15 +2,64 @@
 <html>
 
 <head>
-  <title>CHANGE ME</title>
+  <title>Most Goated Website</title>
+<link rel="stylesheet" href="style.css"  />
 </head>
 
 <body>
   <!-- All content goes here -->
   <div id="all-contents">
-     
+    <nav>
+    <h1>Your Name's Website</h1>
+    <ul id="nav-ul">
+      <li class="nav-li"><a href="index.html">Home</a></li>
+      <li class="nav-li"><a href="portfolio.html">Portfolio</a></li>
+    </ul>
+  </nav>
 
+  <main>
+    
+  <!--nav goes here (TODO 6) -->   
+
+  <main>
+    <div class="sidebar">
+      <img class="sidebar-img" src="https://www.bing.com/th/id/OIP.Pamc-RUR8UsDyG2WDeNiTwHaFj?w=193&h=145&c=8&rs=1&qlt=90&o=6&pid=ImgAns&rm=2E_ME"
+    </div>
+    
+    <div class="content">
+  <h2>Navaeh Jackson</h2>
+  <p>Student at Iowa High</p>
+   
+</div id="interests">
+  <h3> interests</h3>
+  <ul>
+    <li> coding</li>
+    <li>football</li>
+    <li>sleeping</li>
+   </ul>
+  </div>
+ <div  
+   </main>
   </div>
 </body>
 
 </html>
+main {
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) minmax(420px, 1.6fr);
+  align-items: center;
+  min-height: calc(100vh - 160px);
+  gap: clamp(32px, 5vw, 80px);
+}
+
+.sidebar {
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
